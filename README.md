@@ -30,12 +30,14 @@ Generate two bar charts. Both charts should be identical and show the total tota
 - Create the first bar chart with the Pandas DataFrame.plot() method.
 
 - Create the second bar chart with Matplotlib's pyplot methods.
+<img width="574" alt="image" src="https://github.com/RaghenM/Pymaceuticals-Inc/assets/91345190/7db2f44f-4a4f-436c-af51-678d1d66d573">
 
 Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
 
 - Create the first pie chart with the Pandas DataFrame.plot() method.
 
 - Create the second pie chart with Matplotlib's pyplot methods.
+<img width="575" alt="image" src="https://github.com/RaghenM/Pymaceuticals-Inc/assets/91345190/9e202143-b659-43c2-8bfc-9a19bb306978">
 
 # Calculate Quartiles, Find Outliers, and Create a Box Plot
 Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
@@ -47,17 +49,25 @@ Calculate the final tumor volume of each mouse across four of the most promising
 - Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Append the resulting final tumor volumes for each drug to the empty list.
 
 - Determine outliers by using the upper and lower bounds, and then print the results.
+<img width="430" alt="image" src="https://github.com/RaghenM/Pymaceuticals-Inc/assets/91345190/a5c865ab-d703-41e7-a8ec-e7d7a04f5dfc">
 
 Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlight any potential outliers in the plot by changing their color and style.
+<img width="665" alt="image" src="https://github.com/RaghenM/Pymaceuticals-Inc/assets/91345190/e48d382b-dfa8-4974-8852-ea762c46b9a3">
 
 hint: All four box plots should be within the same figure. Use this Matplotlib documentation pageLinks to an external site. for help with changing the style of the outliers.
 
 # Create a Line Plot and a Scatter Plot
 - Select a single mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
+<img width="602" alt="image" src="https://github.com/RaghenM/Pymaceuticals-Inc/assets/91345190/8c917ac1-0ce1-4f90-be7b-2663d2ca99f2">
 
 - Generate a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
+<img width="555" alt="image" src="https://github.com/RaghenM/Pymaceuticals-Inc/assets/91345190/dc34beb4-b8f2-43d5-b847-4512a7e36fef">
 
 # Calculate Correlation and Regression
 - Calculate the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
 
 - Plot the linear regression model on top of the previous scatter plot.
+<img width="544" alt="image" src="https://github.com/RaghenM/Pymaceuticals-Inc/assets/91345190/e781f1ab-4f0a-40d0-b4f1-3777023cd41c">
+
+# Observations 
+<img width="812" alt="image" src="https://github.com/RaghenM/Pymaceuticals-Inc/assets/91345190/f9d443c9-2407-41f5-b0bb-aa19aa2b763a">
